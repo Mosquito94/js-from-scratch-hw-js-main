@@ -14,4 +14,4 @@ while (i <= 10) {
   factorial = factorial * i;
   i = i + 1;
 }
-console.log(factorial)
+console.log(factorial);
