@@ -5,7 +5,7 @@
 let sum = 0;
 let i = 1;
 
-while (cash <= 20) {
+while (i <= 20) {
   sum = sum + i;
   i = i + 1;
 }
