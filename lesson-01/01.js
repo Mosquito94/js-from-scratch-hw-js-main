@@ -2,15 +2,13 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum = 1000;
-const persent = 15;
-const result = 2000;
+let sum = 0;
+let i = 1;
 
-let count = 0
-
-while (count < 20) {
-  sum = sum + sum * (persent / 100)
-  count = count + 1
+while (cash <= 20) {
+  sum = sum + i;
+  i = i + 1;
 }
+console.log(sum);
 
-console.log(sum, count)
+
